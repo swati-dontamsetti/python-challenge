@@ -51,7 +51,7 @@ with open(csvpath, encoding='utf=8') as csvfile:
         dec_index = tChange.index(decrease)
         dec_date = Months[dec_index]
 
-
+    # Printing results
     print("Financial Analysis")
     print("----------------------------------------------------------")
     print(f"Total Months: {Total_Months}")
