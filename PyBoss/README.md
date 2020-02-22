@@ -2,9 +2,9 @@
 
 ![Boss](Images/boss.jpg)
 
-In this challenge, you get to be the _boss_. You oversee hundreds of employees across the country developing Tuna 2.0, a world-changing snack food based on canned tuna fish. Alas, being the boss isn't all fun, games, and self-adulation. The company recently decided to purchase a new HR system, and unfortunately for you, the new system requires employee records be stored completely differently.
+In this challenge, I get to be the _boss_. The company recently decided to purchase a new HR system, and unfortunately for me, the new system requires employee records be stored completely differently.
 
-Your task is to help bridge the gap by creating a Python script able to convert your employee records to the required format. Your script will need to do the following:
+I must bridge the gap by creating a Python script able to convert the current employee records to the required format. The script will do the following:
 
 * Import the `employee_data.csv` file, which currently holds employee records like the below:
 
@@ -33,5 +33,3 @@ Emp ID,First Name,Last Name,DOB,SSN,State
   * The `SSN` data should be re-written such that the first five numbers are hidden from view.
 
   * The `State` data should be re-written as simple two-letter abbreviations.
-
-* Special Hint: You may find this link to be helpful—[Python Dictionary for State Abbreviations](https://gist.github.com/afhaque/29f0f4f37463c447770517a6c17d08f5).
