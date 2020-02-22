@@ -63,11 +63,12 @@ with open(csvpath, encoding='utf=8') as csvfile:
 # Exporting results to a txt file
 output_file = os.path.join("results.txt")
 
-with open(output_file, 'w') as text:
-    text.write("Financial Analysis"+ '\n')
-    text.write("----------------------------------------------------------"+ '\n')
-    text.write(f"Total Months: {Total_Months}"+ '\n')
-    text.write(f"Total Profit/Losses: ${pl:,}"+ '\n')
-    text.write(f"Average Change in Profit/Losses: ${round(avgChange,2):,}"+ '\n')
-    text.write(f"Greatest Increase in Profits: {inc_date} (${increase:,})"+ '\n')
-    text.write(f"Greatest Decrease in Profits: {dec_date} (${decrease:,})"+ '\n')
+with open(output_file, 'w') as file:
+    text = csv.writer(file)
+    text.writerow(["Financial Analysis"])
+    text.writerow(["----------------------------------------------------------"])
+    text.writerow(["Total Months: " + str(Total_Months)])
+    text.writerow(["Total Profit/Losses: $" + str(pl)])
+    text.writerow(["Average Change in Profit/Losses: $" + str(round(avgChange,2))])
+    text.writerow(["Greatest Increase in Profits: " + str(inc_date) + " ($" + str(increase) + ")"])
+    text.writerow(["Greatest Decrease in Profits: " + str(dec_date) + " ($" + str(decrease) + ")"])
