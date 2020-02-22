@@ -1,7 +1,7 @@
 # Py Me Up, Charlie
 
 ## Background
-This is my introduction to the world of programming with Python. In this project I use the concepts I've learned to complete **2** Python Challenges, PyBank and PyPoll. Both of these challenges encompasses a real-world situation where Python scripting skills can come in handy.
+This is my introduction to the world of programming with Python. In this project I use the concepts I've learned to complete **two** Python Challenges, PyBank and PyPoll. Both of these challenges encompasses a real-world situation where Python scripting skills can come in handy.
 
 ## PyBank
 
