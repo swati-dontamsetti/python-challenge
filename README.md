@@ -70,3 +70,6 @@ This is my introduction to the world of programming with Python. In this project
   ```
 
 * In addition, your final script should both print the analysis to the terminal and export a text file with the results.
+
+## BONUS
+Inside the bonus folder are extra challenges to continue practicing my new skills.
