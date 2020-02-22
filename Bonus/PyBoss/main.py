@@ -107,7 +107,7 @@ final_data = zip(emp_id,first_name,last_name,new_date,new_ssn,state)
 output_file = os.path.join("employee_final.csv")
 
 #open the output file
-with open(output_file, "w") as datafile:
+with open(output_file, "w", newline='') as datafile:
     writer =csv.writer(datafile)
 
     #write the headers

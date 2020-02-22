@@ -63,7 +63,7 @@ with open(csvpath, encoding='utf=8') as csvfile:
 # Exporting results to a txt file
 output_file = os.path.join("results.txt")
 
-with open(output_file, 'w') as file:
+with open(output_file, 'w', newline='') as file:
     text = csv.writer(file)
     text.writerow(["Financial Analysis"])
     text.writerow(["----------------------------------------------------------"])
